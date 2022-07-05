@@ -25,7 +25,7 @@ public class PostService {
 
     public void write(PostCreate postCreate) {
 
-        log.info("hello world");
+        log.info("hello world3");
 
         //postCreate -> Entity
         Post post = Post.builder()
