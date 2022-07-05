@@ -24,6 +24,9 @@ public class PostService {
     private final PostRepository repository;
 
     public void write(PostCreate postCreate) {
+
+        log.info("hello world");
+
         //postCreate -> Entity
         Post post = Post.builder()
                 .title(postCreate.getTitle())
